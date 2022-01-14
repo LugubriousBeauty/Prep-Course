@@ -260,7 +260,7 @@ function esVocal(letra) {
 // No modificar nada debajo de esta línea
 // --------------------------------
 
-module.exports = {
+module.exports =  {
   nuevaString,
   nuevoNum,
   nuevoBool,
@@ -294,4 +294,5 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
+ }
 }
