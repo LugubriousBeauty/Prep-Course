@@ -5,3 +5,5 @@ Estos sirven en la programación para hacer que una partecita del código que no
 elegimos, se repita una y otra vez la cantidad de veces que queramos, como cuando
 queremos repetir un mensaje para cada persona que usa el programa.
 Usar este bucle es importante porque nos ahorra de tener que escribir mucho código.
+
+El símbolo && significa "Y", y lo usamos cuando queremos indicar que todas las condiciones a las que le precede && tienen que ser verdad para que la condición completa sea cierta en su totalidad. Por ejemplo, "Mateo tiene el pelo marrón y los ojos castaños". Para que esta frase sea verdadera, necesitamos que al preguntarle a alguien de qué color tiene el pelo mateo nos responda "marrón", pero también debe de responder "castaño" cuando le preguntemos de qué color son sus ojos. Si le preguntaramos y nos respondiera "mateo tiene el pelo rojo y los ojos castaños", la frase ya no sería verdad porque una de las dos condiciones no se estarían cumpliendo. Lo mismo ocurriría al revés.
