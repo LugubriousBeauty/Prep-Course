@@ -26,10 +26,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  var nuevoarray = [];
   for(var i = 0; i < array.length; i++) {
-    array[i]++;
+    nuevoarray[i] = array[i]++;
   }
-  return array;
+  return nuevoarray;
 }
 
 
@@ -38,6 +39,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // y devuelve el array
   // Tu código:
   array.push(elemento);
+  return array;
 }
 
 
@@ -47,6 +49,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // Pista: usa el método `.unshift`
   // Tu código:
   array.unshift(elemento);
+  return array;
 }
 
 
@@ -56,11 +59,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  var conca;
-  for(var i = 0; i < palabras.length; i++) {
-    conca.push(palabras[i] + " ");
-  }
-  return conca;
+  return palabras.join(' ');
 }
 
 
@@ -250,10 +249,11 @@ function continueStatement(numero) {
   while(i < 10) {
     if(i == 5) {
       continue;
-    }
+    } else {
     num += 2;
     array.push(num);
     i++;
+    }
   }
   return array;
 }
