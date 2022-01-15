@@ -1,0 +1,5 @@
+Un array (o arreglo) es como si fuera un conjunto de varios cajones que guardan distintas
+o iguales cosas. Si queremos, por ejemplo, ver lo que hay en el cajón 2, tenemos que
+indicarle a la persona que lo va a abrir qué cajón es.
+Un arreglo funciona igual. Si queremos entrar a su "cajón numero 1" tenemos que indicarlo
+con esto -> [] y el número dentro para así que el programa sepa dónde "abrirlo".
