@@ -7,3 +7,7 @@ queremos repetir un mensaje para cada persona que usa el programa.
 Usar este bucle es importante porque nos ahorra de tener que escribir mucho código.
 
 El símbolo && significa "Y", y lo usamos cuando queremos indicar que todas las condiciones a las que le precede && tienen que ser verdad para que la condición completa sea cierta en su totalidad. Por ejemplo, "Mateo tiene el pelo marrón y los ojos castaños". Para que esta frase sea verdadera, necesitamos que al preguntarle a alguien de qué color tiene el pelo mateo nos responda "marrón", pero también debe de responder "castaño" cuando le preguntemos de qué color son sus ojos. Si le preguntaramos y nos respondiera "mateo tiene el pelo rojo y los ojos castaños", la frase ya no sería verdad porque una de las dos condiciones no se estarían cumpliendo. Lo mismo ocurriría al revés.
+
+El símbolo ||, significa en cambio que si *alguna* de las dos condiciones que damos se cumple, entonces el statement se toma como verdadero, sin importar si una de las condiciones es falsa.
+
+El símbolo ! sirve para decir que algo no es igual. Ejemplo: 2 != 9. Podemos usarlo para provar igualdades en statements.
