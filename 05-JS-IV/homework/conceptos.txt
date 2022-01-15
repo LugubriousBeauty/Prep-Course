@@ -1,0 +1,42 @@
+Los objetos se usan para representar "cosas". Una cosa puede ser una persona, un animal,
+un kiosco o lo que sea. Estos son útiles porque dentro podemos guardar características
+de nuestra cosa. Por ejemplo, podemos crear un objeto llamado gato y almacenar en él
+las características de este animal, como por ejemplo -> pelaje: largo.
+Estas características son llamadas "clave". Las claves definen un valor, como 
+"color ojos" (clave): "azul" (valor). 
+Podemos tener varias claves con sus respectivos valores. Estos datos almacenados
+dentro de la clase se denominan "propiedades" del objeto.
+
+Por otro lado, tenemos los métodos (que también son propios de las clases).
+Estos son parecidos a lo que explicamos antes, pero en vez de la clave tener asignado un valor,
+tiene asignada una función (o sea, que devuelve algo).
+
+Los bucles for-in sirven para recorrer los pares clave-valor de los que hablamos antes.
+Funcionan casi igual que un bucle for convencional, diferenciandose en que el primero
+utiliza la palabra reservada "in".
+
+Ahora, ¿cómo hacemos para acceder a los "valores" de una clave deseada? Es decir, 
+¿cómo hacemos para decirle a la computadora que quiero saber el color de pelo de mi gato?
+Supongamos que dentro del objeto, la clave para el color de pelo del gato y su valor están
+definidas de la siguiente manera:
+
+var gato {
+pelaje: "amarillo",
+colordeojos-3: "azul"
+};
+
+Para ello, debemos aclarar el nombre del objeto (en este caso nuestro gato) y separado
+de un punto, la clave cuyo valor deseamos obtener:
+
+gato.pelaje; //devuelve "amarillo".
+
+Sin embargo, si escribieramos:
+
+gato.colordeojos-3 // error
+
+arrojaría error, ya que la clave contiene caracteres numericos y especiales y, de alguna
+forma, confundimos a nuestro programa. Para salvarnos de este error, se usa la notación
+con [].
+
+gato['colordeojos-3']; devuelve "azul"
+
