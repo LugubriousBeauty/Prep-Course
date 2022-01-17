@@ -1,0 +1,21 @@
+Suponte que tienes un robot (lo llamaremos Robin) al que puedes programar para que salude a la gente de la 
+siguiente manera:
+"Hola, que tál + " tunombre.
+Entonces, cada vez que quieras que él salude a alguien, deberás indicarle antes cómo te
+llamas. Esta información que tú le brindas al robot (en este caso, un nombre) se llama
+"argumento". La acción del robot de saludar se llama "función", a la que podemos nombrarla, como por ejemplo
+
+ funcion saludar(tunombre) {
+    "Hola, que tál + " tunombre
+}
+
+ahora nuestra funcion (o Robin) se llama "saludar" y recibe como argumento nuestro nombre.
+Vamos a lo que nos interesa...
+
+Imagina que a Robin se le descompuso la voz y no puede decir ningún nombre. Para solucionar eso, podemos crear otro robot. Lo llamaremos Octa.
+Como no queremos dejar a Robin sin nada que hacer porque sino  se pone triste, podemos darle nuestro nombre y que
+él se encargue de llamarlo a Octa para que nos hable.
+Recuerdas que dijimos que cada robot es una "función" a la que le pasamos cosas, como nuestro
+nombre y que esto se denomina "parametro"? Para que Robin lo pueda llamar a Octa, entonces hay que indicarselo.
+Esto se logra mandandole a Octa nuestro nombre Y también la función de la que se encarga Robin (la llamaremos 
+"Hablar"). Entonces, cuando invocamos a Octa, este a su vez invoca a Robin y él se encarga de hablarnos.
