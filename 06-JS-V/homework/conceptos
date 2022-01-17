@@ -1,0 +1,28 @@
+Mira, supone que sos un artista digital y tenés que dibujar un paisaje soleado.
+Ahora, imagina que a mucha gente le gusta ese cuadro que dibujaste pero cada 
+persona le quiere hacer una modificación distinta. Tal vez Fulanito quiere que a ese 
+dibujo le agreges un perrito, pero Mengano quiere un gatito.
+¿Vos qué harías? ¿Dibujarías el dibujo del pasaje soleado cada vez que te lo piden y sobre
+eso le harías las modificaciones o sólo lo dibujarías una vez, lo guardarías y cuando
+te piden un cambio usas el paisaje que ya habías dibujado y sólo le agregas, por ejemplo,
+un perrito?
+De forma similar funcionan los prototipos... Nos evitan tener que escribir el mismo código
+cada vez que queremos crear cosas que son parecidas entre sí, pero no iguales.
+¿Cómo se hace? Imagina que en vez de un cuadro ahora tienes acciones, como "correr".
+Podes declarar un prototipo que se llame "jugar al ajedrez" para que cuando vengan Fulanito y Menganito
+solo tengas que explicar UNA sola vez cómo se juega.
+
+Un constructor es lo que inicializa una clase. Para que lo entiendas, podemos compararlo
+con una construccion..
+Vos para empezar a construir, por ejemplo una casa, además de contar con los planos, lo primero que
+tenes que hacer es comprar los materiales.
+Si tuvieras que hacer una lista de compras, sería algo como esto:
+
+Construccion:
+Arena
+Ladrillos
+Vidrio
+Hierro
+
+Una vez que ya tenes los materiales, ya podes decir que "la construccion empezó", es decir,
+que iniciaste la construcción...

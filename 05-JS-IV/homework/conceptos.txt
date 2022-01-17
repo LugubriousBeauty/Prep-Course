@@ -20,7 +20,7 @@ Ahora, ¿cómo hacemos para acceder a los "valores" de una clave deseada? Es dec
 Supongamos que dentro del objeto, la clave para el color de pelo del gato y su valor están
 definidas de la siguiente manera:
 
-var gato {
+var gato = {
 pelaje: "amarillo",
 colordeojos-3: "azul"
 };
